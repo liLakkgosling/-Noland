@@ -1,0 +1,105 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #333333;
+}
+.colorword{
+	color: #D1A954;
+}
+p{
+	color: white;
+}
+aside{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 1045px;
+	width: 150px;
+	
+	background: rgba(51, 51, 51, 0.75);
+
+}
+
+aside ul{
+	list-style:none;
+	position:absolute;
+	bottom: 250px;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-gap:45px;
+}
+
+aside ul li{
+	width: 40px;
+}
+aside ul li div{
+	border-left:3px solid #C4C4C4;
+	width: 3px;
+	height: 80px;
+	position: absolute;
+	bottom: 270px;
+	left: 53px;
+}
+
+aside ul li p{
+	text-transform: uppercase;
+	transform: rotate(-90deg);
+	width: 242px;
+	position: absolute;
+	left: -68px;
+	bottom: 490px;
+
+}
+
+nav{
+	top: 0px;
+	position: relative;
+	margin:auto;
+	width: 1110px;
+	padding-top: 50px;
+	padding-left: 150px;
+}
+
+nav ul{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	padding: 0px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #D1A954;
+}
+#number{
+	color: #D1A954;
+}
+
+section#fifth{
+	    height: 700px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 150px;
+}
+
+section#fifth p{
+	margin:auto;
+	position: relative;
+	font-size: 48px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+section#fifth div.gogo{
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 80px;
+	grid-row-gap: 100px;
+}
